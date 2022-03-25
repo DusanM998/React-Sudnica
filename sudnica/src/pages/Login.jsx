@@ -31,7 +31,7 @@ const [cookies, setCookie, removeCookie] = useCookies(["Korisnik"]);
   }
 
   if(redirect){
-    return <Redirect to='/'></Redirect>
+    return <Redirect to='/admin'></Redirect>
   } 
 
     return(
