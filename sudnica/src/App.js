@@ -5,6 +5,7 @@ import Registration from './pages/Registration';
 import Main from "./pages/Main";
 import Login from "./pages/Login";
 import Admin from "./pages/Admin";
+import Parnica from "./pages/Parnica";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path='/register' exact component={Registration} />
         <Route path='/login' exact component={Login} />
         <Route path='/admin' exact component={Admin} />
+        <Route path='/parnica' exact component={Parnica} />
       </Switch>
     </Router>
   );
